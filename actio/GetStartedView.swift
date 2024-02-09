@@ -8,15 +8,12 @@
 import SwiftUI
 
 struct GetStartedView: View {
-    @State private var isStarted = false
+
     var body: some View {
-        if isStarted{
-            // Put our first view here
-        } else{
-            Button("Get Started"){
-                self.isStarted = true
-            }
+        Button("Get Started"){
+            
         }
+        .buttonStyle(ActioButtonTheme())
     }
 }
 

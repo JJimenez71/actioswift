@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A45928FF2B75B73700698DCE /* ActioTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45928FE2B75B73700698DCE /* ActioTitleView.swift */; };
+		A45929032B75C1E800698DCE /* ActioButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45929022B75C1E800698DCE /* ActioButtonTheme.swift */; };
 		A48B4C4D2B5A123B00652E8D /* actioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B4C4C2B5A123B00652E8D /* actioApp.swift */; };
 		A48B4C4F2B5A123B00652E8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B4C4E2B5A123B00652E8D /* ContentView.swift */; };
 		A48B4C512B5A123C00652E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48B4C502B5A123C00652E8D /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A45928FE2B75B73700698DCE /* ActioTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActioTitleView.swift; sourceTree = "<group>"; };
+		A45929022B75C1E800698DCE /* ActioButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActioButtonTheme.swift; sourceTree = "<group>"; };
 		A48B4C492B5A123B00652E8D /* actio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = actio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A48B4C4C2B5A123B00652E8D /* actioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actioApp.swift; sourceTree = "<group>"; };
 		A48B4C4E2B5A123B00652E8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,10 +60,12 @@
 			isa = PBXGroup;
 			children = (
 				A48B4C4C2B5A123B00652E8D /* actioApp.swift */,
+				A45928FE2B75B73700698DCE /* ActioTitleView.swift */,
 				A48B4C4E2B5A123B00652E8D /* ContentView.swift */,
 				A48B4C502B5A123C00652E8D /* Assets.xcassets */,
 				A48B4C522B5A123C00652E8D /* Preview Content */,
 				A48B4C622B6325AD00652E8D /* GetStartedView.swift */,
+				A45929022B75C1E800698DCE /* ActioButtonTheme.swift */,
 				A48B4C642B632A5100652E8D /* QuestionsView.swift */,
 			);
 			path = actio;
@@ -143,9 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45928FF2B75B73700698DCE /* ActioTitleView.swift in Sources */,
 				A48B4C652B632A5100652E8D /* QuestionsView.swift in Sources */,
 				A48B4C632B6325AD00652E8D /* GetStartedView.swift in Sources */,
 				A48B4C4F2B5A123B00652E8D /* ContentView.swift in Sources */,
+				A45929032B75C1E800698DCE /* ActioButtonTheme.swift in Sources */,
 				A48B4C4D2B5A123B00652E8D /* actioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
