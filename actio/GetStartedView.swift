@@ -8,10 +8,26 @@
 import SwiftUI
 
 struct GetStartedView: View {
-
+    @State var started = false
     var body: some View {
-        Button("Get Started"){
-            
+        return Group{
+            if started{
+                QuestionsView()
+            } else {
+                GetStartedButton(started: $started)
+            }
+        }
+    }
+}
+
+struct GetStartedButton: View {
+    @Binding var started: Bool
+    var body: some View{
+        Button(action: {
+            started = true
+            print(started)
+        }) {
+            Text("Get Started")
         }
         .buttonStyle(ActioButtonTheme())
     }
