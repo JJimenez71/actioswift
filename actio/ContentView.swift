@@ -12,6 +12,9 @@ struct ContentView: View {
         VStack{
             ActioTitleView()
             GetStartedView()
+        }.frame(maxWidth: .infinity, maxHeight: .infinity) // Adding in background color
+            .background{
+                Color.gray.opacity(0.5).ignoresSafeArea()
         }
     }
 }
