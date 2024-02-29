@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A419CF722B8ECA7400D73591 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = A419CF712B8ECA7400D73591 /* Auth0 */; };
+		A419CF742B8ECBF700D73591 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = A419CF732B8ECBF700D73591 /* Auth0.plist */; };
+		A419CF762B8ECCBA00D73591 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A419CF752B8ECCBA00D73591 /* LoginView.swift */; };
 		A45928FF2B75B73700698DCE /* ActioTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45928FE2B75B73700698DCE /* ActioTitleView.swift */; };
 		A45929032B75C1E800698DCE /* ActioButtonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45929022B75C1E800698DCE /* ActioButtonTheme.swift */; };
 		A48B4C4D2B5A123B00652E8D /* actioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48B4C4C2B5A123B00652E8D /* actioApp.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A419CF6F2B8EC9CF00D73591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A419CF732B8ECBF700D73591 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		A419CF752B8ECCBA00D73591 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A45928FE2B75B73700698DCE /* ActioTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActioTitleView.swift; sourceTree = "<group>"; };
 		A45929022B75C1E800698DCE /* ActioButtonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActioButtonTheme.swift; sourceTree = "<group>"; };
 		A48B4C492B5A123B00652E8D /* actio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = actio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A419CF722B8ECA7400D73591 /* Auth0 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +66,7 @@
 		A48B4C4B2B5A123B00652E8D /* actio */ = {
 			isa = PBXGroup;
 			children = (
+				A419CF6F2B8EC9CF00D73591 /* Info.plist */,
 				A48B4C4C2B5A123B00652E8D /* actioApp.swift */,
 				A45928FE2B75B73700698DCE /* ActioTitleView.swift */,
 				A48B4C4E2B5A123B00652E8D /* ContentView.swift */,
@@ -67,6 +75,8 @@
 				A48B4C622B6325AD00652E8D /* GetStartedView.swift */,
 				A45929022B75C1E800698DCE /* ActioButtonTheme.swift */,
 				A48B4C642B632A5100652E8D /* QuestionsView.swift */,
+				A419CF732B8ECBF700D73591 /* Auth0.plist */,
+				A419CF752B8ECCBA00D73591 /* LoginView.swift */,
 			);
 			path = actio;
 			sourceTree = "<group>";
@@ -95,6 +105,9 @@
 			dependencies = (
 			);
 			name = actio;
+			packageProductDependencies = (
+				A419CF712B8ECA7400D73591 /* Auth0 */,
+			);
 			productName = actio;
 			productReference = A48B4C492B5A123B00652E8D /* actio.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +136,9 @@
 				Base,
 			);
 			mainGroup = A48B4C402B5A123B00652E8D;
+			packageReferences = (
+				A419CF702B8ECA7400D73591 /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
 			productRefGroup = A48B4C4A2B5A123B00652E8D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A48B4C542B5A123C00652E8D /* Preview Assets.xcassets in Resources */,
+				A419CF742B8ECBF700D73591 /* Auth0.plist in Resources */,
 				A48B4C512B5A123C00652E8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A45928FF2B75B73700698DCE /* ActioTitleView.swift in Sources */,
+				A419CF762B8ECCBA00D73591 /* LoginView.swift in Sources */,
 				A48B4C652B632A5100652E8D /* QuestionsView.swift in Sources */,
 				A48B4C632B6325AD00652E8D /* GetStartedView.swift in Sources */,
 				A48B4C4F2B5A123B00652E8D /* ContentView.swift in Sources */,
@@ -286,6 +304,7 @@
 				DEVELOPMENT_TEAM = 3X225285TY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = actio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,6 +334,7 @@
 				DEVELOPMENT_TEAM = 3X225285TY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = actio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -355,6 +375,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A419CF702B8ECA7400D73591 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A419CF712B8ECA7400D73591 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A419CF702B8ECA7400D73591 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A48B4C412B5A123B00652E8D /* Project object */;
 }

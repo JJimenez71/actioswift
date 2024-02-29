@@ -14,7 +14,10 @@ struct GetStartedView: View {
             if started{
                 QuestionsView()
             } else {
+                VStack{
                 GetStartedButton(started: $started)
+                LoginView()
+                }
             }
         }
     }
