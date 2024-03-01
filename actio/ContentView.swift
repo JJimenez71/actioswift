@@ -10,8 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
-            ActioTitleView()
-            GetStartedView()
+            HStack{
+                ActioTitleView()
+                    .padding()
+                    .frame(alignment: .topLeading)
+                Spacer()
+            }
+            GetStartedView().frame(maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
         }.frame(maxWidth: .infinity, maxHeight: .infinity) // Adding in background color
             .background{
                 Color.gray.opacity(0.5).ignoresSafeArea()
